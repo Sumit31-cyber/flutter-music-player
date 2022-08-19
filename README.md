@@ -2,10 +2,7 @@
 
 A new Flutter project.![PlatingScreen](https://user-images.githubusercontent.com/72148803/185652800-d2f10e62-6b18-4127-9950-a5ef1dafcf81.png)
 
-![HomeScreen](https://user-images.githubusercontent.com/72148803/185652604-4ceb2722-9e64-4d4b-a934-3e68f0d41a87.png)![PlatingScreen](https://user-images.githubusercontent.com/72148803/185652835-6d34e844-8e92-41bb-8872-8f041ce4ce8e.png)![PlaylistScreen](https://user-images.githubusercontent.com/72148803/185652889-f4655072-afa5-4ac9-90bf-5afdc35bd7a1.png)
-
-
-
+![Frame 2](https://user-images.githubusercontent.com/72148803/185663837-f28f1c7c-1efa-4fe3-be4b-87f7c07bb916.png)
 
 
 ## Getting Started
