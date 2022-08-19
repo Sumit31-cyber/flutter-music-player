@@ -21,12 +21,12 @@ class Song {
     Song(
       title: 'DhaggonSe',
       description: 'DhaggonSe',
-      url: 'assets/songs/DhaggonSeBaandhaa.mp3',
+      url: 'assets/songs/DhaagonSeBaandhaa.mp3',
       coverUrl: 'assets/images/rakshabandhan.webp',
     ),
     Song(
       title: 'Kesariya',
-      description: 'GlKesariyaass',
+      description: 'Kesariya',
       url: 'assets/songs/Kesariya.mp3',
       coverUrl: 'assets/images/brahamstra.jpg',
     ),

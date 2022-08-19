@@ -14,6 +14,19 @@ class PlayerButtons extends StatelessWidget {
     return Row(
       mainAxisAlignment: MainAxisAlignment.center,
       children: [
+        StreamBuilder<SequenceState?>(
+            stream: audioPlayer.sequenceStateStream,
+            builder: ((context, snapshot) {
+              return IconButton(
+                  iconSize: 45,
+                  onPressed: audioPlayer.hasPrevious
+                      ? audioPlayer.seekToPrevious
+                      : null,
+                  icon: const Icon(
+                    Icons.skip_previous,
+                    color: Colors.white,
+                  ));
+            })),
         StreamBuilder<PlayerState>(
             stream: audioPlayer.playerStateStream,
             builder: (context, snapshot) {
@@ -33,7 +46,7 @@ class PlayerButtons extends StatelessWidget {
                   return IconButton(
                       onPressed: audioPlayer.play,
                       iconSize: 75,
-                      icon: Icon(
+                      icon: const Icon(
                         Icons.play_circle,
                         color: Colors.white,
                       ));
@@ -41,7 +54,7 @@ class PlayerButtons extends StatelessWidget {
                   return IconButton(
                     onPressed: audioPlayer.pause,
                     iconSize: 75,
-                    icon: Icon(
+                    icon: const Icon(
                       Icons.pause_circle,
                       color: Colors.white,
                     ),
@@ -51,7 +64,7 @@ class PlayerButtons extends StatelessWidget {
                       onPressed: () => audioPlayer.seek(Duration.zero,
                           index: audioPlayer.effectiveIndices!.first),
                       iconSize: 75,
-                      icon: Icon(
+                      icon: const Icon(
                         Icons.replay_circle_filled_outlined,
                         color: Colors.white,
                       ));
@@ -59,7 +72,19 @@ class PlayerButtons extends StatelessWidget {
               } else {
                 return const CircularProgressIndicator();
               }
-            })
+            }),
+        StreamBuilder<SequenceState?>(
+            stream: audioPlayer.sequenceStateStream,
+            builder: ((context, snapshot) {
+              return IconButton(
+                  iconSize: 45,
+                  onPressed:
+                      audioPlayer.hasNext ? audioPlayer.seekToNext : null,
+                  icon: const Icon(
+                    Icons.skip_next,
+                    color: Colors.white,
+                  ));
+            })),
       ],
     );
   }
