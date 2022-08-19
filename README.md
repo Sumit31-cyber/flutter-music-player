@@ -6,9 +6,9 @@ A new Flutter project.
 
 ## Packages used in project 
 
-- [Just_audio (For plating audio).]
-- [Get (For route management).]
-- [iii. rxdart (For combining streams to the audio player).]
+- Just_audio (For playing audio).
+- Get (For route management).
+- rxdart (For combining streams to the audio player).
 
 
 ## Getting Started
