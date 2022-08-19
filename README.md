@@ -4,6 +4,11 @@ A new Flutter project.
 
 ![Frame 2](https://user-images.githubusercontent.com/72148803/185663837-f28f1c7c-1efa-4fe3-be4b-87f7c07bb916.png)
 
+Packages used in project :-
+i. Just_audio (For plating audio).
+ii. Get (For route management).
+iii. rxdart (For combining streams to the audio player).
+
 
 ## Getting Started
 
