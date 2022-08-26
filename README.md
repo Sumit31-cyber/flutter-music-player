@@ -2,7 +2,8 @@
 
 A new Flutter project.
 
-![Frame 2](https://user-images.githubusercontent.com/72148803/185663837-f28f1c7c-1efa-4fe3-be4b-87f7c07bb916.png)
+![Frame 2](https://user-images.githubusercontent.com/72148803/186971155-24cf2dfc-ff2a-4321-b70a-1497bc21fdb4.png)
+
 
 ## Packages used in project 
 
